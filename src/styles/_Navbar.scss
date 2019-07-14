@@ -1,0 +1,12 @@
+.headerMenu {
+  li {
+    list-style-type: none;
+  }
+  .headerItem {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: black;
+    }
+  }
+}
