@@ -13,3 +13,26 @@
     line-height: 1.25;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .homeLogo {
+    .title {
+      font-size: 4rem;
+    }
+    .edition {
+      margin-top: 2rem;
+    }
+    .info {
+      font-size: 1.8rem;
+      line-height: 1.25;
+    }
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .homeLogo {
+    .title {
+      font-size: 5rem;
+    }
+  }
+}

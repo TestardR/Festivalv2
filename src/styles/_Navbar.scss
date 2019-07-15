@@ -11,3 +11,21 @@
     }
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .headerMenu {
+    li {
+      list-style-type: none;
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .headerMenu {
+    li {
+      list-style-type: none;
+      font-size: 2rem;
+    }
+  }
+}
