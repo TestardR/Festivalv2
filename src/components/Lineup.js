@@ -7,50 +7,50 @@ const Lineup = () => {
     <Baselayout>
       <div className="LineupWrapper">
         <Grid container spacing={0} alignItems="center" justify="center">
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Banzai
           </Grid>
         </Grid>
         <Grid container spacing={1} alignItems="center" justify="center">
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Banzai
           </Grid>
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Kamaka
           </Grid>
         </Grid>
         <Grid container spacing={2} alignItems="center" justify="center">
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Banzai
           </Grid>
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Kamaka
           </Grid>
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Roloko
           </Grid>
         </Grid>
         <Grid container spacing={2} alignItems="center" justify="center">
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Banzai
           </Grid>
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Kamaka
           </Grid>
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Roloko
           </Grid>
         </Grid>
         <Grid container spacing={1} alignItems="center" justify="center">
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Banzai
           </Grid>
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Kamaka
           </Grid>
         </Grid>
         <Grid container spacing={0} alignItems="center" justify="center">
-          <Grid item xs={0}>
+          <Grid item xs={'auto'}>
             Banzai
           </Grid>
         </Grid>
