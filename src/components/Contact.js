@@ -29,7 +29,6 @@ const useStyles = makeStyles({
 
 const Contact = () => {
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
 
   return (
     <Baselayout>

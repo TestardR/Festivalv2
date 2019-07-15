@@ -30,7 +30,6 @@ const useStyles = makeStyles({
 
 const Information = () => {
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
 
   return (
     <Baselayout>
