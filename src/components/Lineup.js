@@ -15,7 +15,6 @@ const useStyles = makeStyles({
   bigAvatar: {
     width: '28rem',
     height: '28rem',
-    marginTop: '5rem',
     border: '2px solid white'
   }
 });
@@ -35,206 +34,193 @@ const Lineup = () => {
   return (
     <Baselayout>
       <MediaQuery query="(min-width: 769px)">
-        <div className="LineupWrapper">
-          <Grid container justify="space-between">
-            <Grid item>
-              <Grid container spacing={6} alignItems="center" justify="center">
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupSky)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Banzai
-                </Grid>
-              </Grid>
-              <Grid container spacing={6} alignItems="center" justify="center">
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupHotdog)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Banzai
-                </Grid>
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupWar)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Kamaka
-                </Grid>
-              </Grid>
-              <Grid container spacing={6} alignItems="center" justify="center">
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupHippy)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Banzai
-                </Grid>
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupWar)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Kamaka
-                </Grid>
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupHotdog)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Roloko
-                </Grid>
-              </Grid>
-              <Grid container spacing={6} alignItems="center" justify="center">
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupWar)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Banzai
-                </Grid>
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupHotdog)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Kamaka
-                </Grid>
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupWar)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Roloko
-                </Grid>
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupHippy)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Roloko
-                </Grid>
-              </Grid>
-              <Grid container spacing={6} alignItems="center" justify="center">
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupHippy)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Banzai
-                </Grid>
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupWar)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Kamaka
-                </Grid>
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupHotdog)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Roloko
-                </Grid>
-              </Grid>
-              <Grid container spacing={6} alignItems="center" justify="center">
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupWar)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Banzai
-                </Grid>
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupHotdog)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Kamaka
-                </Grid>
-              </Grid>
-              <Grid container spacing={6} alignItems="center" justify="center">
-                <Grid
-                  item
-                  xs={'auto'}
-                  onMouseOver={() => handleMouseOver(LineupWar)}
-                  onMouseOut={() => handleMouseOut()}
-                  className="lineupItem"
-                >
-                  Banzai
-                </Grid>
+        <Grid container justify="space-between" spacing={4}>
+          <Grid item className="LineupWrapper">
+            <Grid container spacing={6} justify="center">
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupSky)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Banzai
               </Grid>
             </Grid>
-            <Grid item>
-              <Avatar
-                src={imgSrc}
-                alt="lineup Image"
-                className="lineupImage"
-                className={classes.bigAvatar}
-              />
+            <Grid container spacing={6} justify="center">
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupHotdog)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Banzai
+              </Grid>
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupWar)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Kamaka
+              </Grid>
+            </Grid>
+            <Grid container spacing={6} justify="center">
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupHippy)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Banzai
+              </Grid>
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupWar)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Kamaka
+              </Grid>
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupHotdog)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Roloko
+              </Grid>
+            </Grid>
+            <Grid container spacing={6} justify="center">
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupWar)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Banzai
+              </Grid>
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupHotdog)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Kamaka
+              </Grid>
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupWar)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Roloko
+              </Grid>
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupHippy)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Roloko
+              </Grid>
+            </Grid>
+            <Grid container spacing={6} justify="center">
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupHippy)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Banzai
+              </Grid>
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupWar)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Kamaka
+              </Grid>
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupHotdog)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Roloko
+              </Grid>
+            </Grid>
+            <Grid container spacing={6} justify="center">
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupWar)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Banzai
+              </Grid>
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupHotdog)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Kamaka
+              </Grid>
+            </Grid>
+            <Grid container spacing={6} justify="center">
+              <Grid
+                item
+                xs={'auto'}
+                onMouseOver={() => handleMouseOver(LineupWar)}
+                onMouseOut={() => handleMouseOut()}
+                className="lineupItem"
+              >
+                Banzai
+              </Grid>
             </Grid>
           </Grid>
-        </div>
+          <Grid item>
+            <Avatar
+              src={imgSrc}
+              alt="lineup Image"
+              className="lineupImage"
+              className={classes.bigAvatar}
+            />
+          </Grid>
+        </Grid>
       </MediaQuery>
       <MediaQuery query="(max-width: 768px)">
         <div className="LineupWrapper">
-          <Grid container spacing={0} alignItems="center" justify="center">
+          <Grid container spacing={0} justify="center">
             <Grid item xs={'auto'}>
               Banzai
             </Grid>
           </Grid>
-          <Grid container spacing={1} alignItems="center" justify="center">
-            <Grid item xs={'auto'}>
-              Banzai
-            </Grid>
-            <Grid item xs={'auto'}>
-              Kamaka
-            </Grid>
-          </Grid>
-          <Grid container spacing={2} alignItems="center" justify="center">
+          <Grid container spacing={1} justify="center">
             <Grid item xs={'auto'}>
               Banzai
             </Grid>
             <Grid item xs={'auto'}>
               Kamaka
             </Grid>
-            <Grid item xs={'auto'}>
-              Roloko
-            </Grid>
           </Grid>
-          <Grid container spacing={2} alignItems="center" justify="center">
+          <Grid container spacing={2} justify="center">
             <Grid item xs={'auto'}>
               Banzai
             </Grid>
@@ -245,7 +231,18 @@ const Lineup = () => {
               Roloko
             </Grid>
           </Grid>
-          <Grid container spacing={1} alignItems="center" justify="center">
+          <Grid container spacing={2} justify="center">
+            <Grid item xs={'auto'}>
+              Banzai
+            </Grid>
+            <Grid item xs={'auto'}>
+              Kamaka
+            </Grid>
+            <Grid item xs={'auto'}>
+              Roloko
+            </Grid>
+          </Grid>
+          <Grid container spacing={1} justify="center">
             <Grid item xs={'auto'}>
               Banzai
             </Grid>
@@ -253,7 +250,7 @@ const Lineup = () => {
               Kamaka
             </Grid>
           </Grid>
-          <Grid container spacing={0} alignItems="center" justify="center">
+          <Grid container spacing={0} justify="center">
             <Grid item xs={'auto'}>
               Banzai
             </Grid>

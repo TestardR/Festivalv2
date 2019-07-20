@@ -6,6 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import { Grid } from '@material-ui/core';
 
 const useStyles = makeStyles({
   card: {
@@ -40,7 +41,7 @@ const Contact = () => {
           <Typography
             variant="body2"
             component="p"
-            align="justify"
+            align="center"
             className={classes.top}
           >
             Lorem ipsum dolor, onsectetur adipisicing. Quibusdam, explicabo.
@@ -48,7 +49,11 @@ const Contact = () => {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">Lien Facebook</Button>
+          <Grid container spacing={2} alignItems="center" justify="center">
+            <Button size="small" className={classes.pos}>
+              Lien Facebook
+            </Button>
+          </Grid>
         </CardActions>
       </Card>
     </Baselayout>

@@ -41,7 +41,7 @@ const Information = () => {
           <Typography
             variant="body2"
             component="p"
-            align="justify"
+            align="center"
             className={classes.top}
           >
             Lorem ipsum dolor, onsectetur adipisicing. Quibusdam, explicabo.
@@ -50,7 +50,9 @@ const Information = () => {
         </CardContent>
         <CardActions>
           <Grid container spacing={2} alignItems="center" justify="center">
-            <Button size="small">Contactez-nous sur Facebook</Button>
+            <Button size="small" className={classes.pos}>
+              Contactez-nous sur Facebook
+            </Button>
           </Grid>
         </CardActions>
       </Card>
